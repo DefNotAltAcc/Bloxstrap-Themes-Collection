@@ -33,7 +33,7 @@
 <br>
 
 # Miyabi
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Miyabi.png">
+<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Miyabi.gif">
 
 <br>
 
