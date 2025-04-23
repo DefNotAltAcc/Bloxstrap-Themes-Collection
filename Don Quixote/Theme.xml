@@ -1,0 +1,55 @@
+<!-- Background Images From Limbus Company: https://limbuscompany.wiki.gg/wiki/Cinq_Assoc._East_Section_3_Don_Quixote -->
+<!-- Main Mini Image From: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Feastern-cinq-association-don-quixote-v0-bwdmbwjyq9le1.jpeg%3Fwidth%3D1284%26format%3Dpjpg%26auto%3Dwebp%26s%3D63716e9edabb0170b1266f76bcf05cce1a7f410c -->
+<!-- Alt Mini Image 1 From: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fcinq-east-section-3-don-quixote-v0-yd2jskzymvle1.png%3Fwidth%3D1696%26format%3Dpng%26auto%3Dwebp%26s%3Da06cca6af2dca2c8268e687469a596601668d320 -->
+<!-- Alt Mini Image 2 From: ??? -->
+
+<BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://MainBG.png"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	<TextBlock 
+		Name="Loading" 
+		Text="LOADING"
+		HorizontalAlignment="Left"
+		VerticalAlignment="Bottom"
+		Margin="40,0,0,80" 
+		FontFamily="Segoe UI"
+		FontWeight="Bold" 
+		FontSize="40" 
+		Foreground="#e9b44c"
+	/>
+	
+	<!-- Set IsAnimated To "True" If Using Gif
+	<Image 
+		Source="theme://AltMiniImg.png" 
+		IsAnimated="False"  
+		Width="100" 
+		Height="100" 
+		HorizontalAlignment="Right" 
+		VerticalAlignment="Bottom"
+		Margin="0,0,50,50"
+	/> -->
+	
+	<ProgressBar 
+		Height="6"
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Left"
+		Margin="40,0,0,60"
+		Width="350" 
+		Foreground="#4cd3af"
+		Background="#15FFFFFF"
+	/>
+	
+</BloxstrapCustomBootstrapper>

@@ -1,0 +1,49 @@
+<BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True" 
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://Miyabi.png"
+		Stretch="UniformToFill"
+		HorizontalAlignment="Center"
+	/>
+	
+	<TextBlock 
+		Name="Loading" 
+		Text="LOADING" 
+		HorizontalAlignment="Left"
+		VerticalAlignment="Bottom" 
+		Margin="40,0,0,73" 
+		FontFamily="Segoe UI" 
+		FontWeight="Bold" 
+		FontSize="36"
+		Foreground="#52aba9"
+	/>
+	
+	<ProgressBar 
+		Height="6" 
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Left"
+		Margin="40,0,0,53" 
+		Width="300" 
+		Foreground="#52aba9"
+		Background="#15FFFFFF"
+	/>
+	
+	<Image 
+		Source="theme://Miyabi3.gif" 
+		IsAnimated="True" 
+		Width="120" 
+		Height="120" 
+		HorizontalAlignment="Right" 
+		VerticalAlignment="Bottom"
+		Margin="0,0,40,40"
+	/>
+	
+</BloxstrapCustomBootstrapper>

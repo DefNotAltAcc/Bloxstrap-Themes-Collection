@@ -1,0 +1,40 @@
+<!-- Art By Skh <@1231110874513801226>-->
+
+<BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title=""
+		ShowMinimize="false" 
+		ShowClose="True" 
+		Visibility="Visible"
+	/>
+	
+	<Image
+		Source="theme://ultraabom_v2.png" 
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	<TextBlock 
+		Name="Loading" 
+		Text="LOADING" 
+		HorizontalAlignment="Left"
+		VerticalAlignment="Bottom" 
+		Margin="40,0,0,80"
+		FontFamily="Segoe UI" 
+		FontWeight="Bold" 
+		FontSize="32" 
+		Foreground="#fff080"
+	/>
+	
+	<ProgressBar 
+		Height="6"
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Left"
+		Margin="40,0,0,60" Width="350" 
+		Foreground="#3fd8e6" 
+		Background="#15FFFFFF"
+	/>
+	
+</BloxstrapCustomBootstrapper>

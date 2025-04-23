@@ -1,0 +1,63 @@
+<!-- Background Image: https://tenor.com/view/bocchi-the-rock-gif-27019560 -->
+<!-- Mini Gif: https://giphy.com/stickers/pixel-8bit-sprite-8nH6xtdefALrKslyrj -->
+<BloxstrapCustomBootstrapper Version="0" Height="280" Width="498" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Rectangle
+		Height="280"
+		Width="498" 
+		Fill="Black" 
+		Opacity=".1" 
+		Panel.ZIndex="100"
+	/>
+	
+	<Image 
+		Source="theme://bocci.gif"
+		IsAnimated="True" 
+		Height="100" 
+		Width="100" 
+		HorizontalAlignment="Right" 
+		VerticalAlignment="Bottom" 
+		Margin="0,0,20,15" 
+		Panel.ZIndex="1"
+	/>
+	
+	<Image 
+		Source="theme://bocchi-the-rock.gif"
+		IsAnimated="True"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	
+	
+	<TextBlock 
+		Name="Loading" 
+		Text="LOADING"
+		HorizontalAlignment="Left"
+		VerticalAlignment="Bottom"
+		Margin="40,0,0,40" 
+		FontFamily="Segoe UI"
+		FontWeight="Bold" 
+		FontSize="30" 
+		Foreground="Black"
+		Opacity=".75"
+	/>
+	
+	<ProgressBar 
+		Height="6"
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom" 
+		Width="498" 
+		Foreground="#f4aebc"
+		Opacity=".75"
+		Background="#15FFFFFF"
+	/>
+	
+</BloxstrapCustomBootstrapper>

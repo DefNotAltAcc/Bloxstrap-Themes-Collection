@@ -1,0 +1,64 @@
+<!-- Art By N16 <@235199547545092097>-->
+<!-- Game: Defend the Statue By: Nostalgic Proctors https://www.roblox.com/games/6911596531/Defend-the-Statue-->
+
+<BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false" 
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://aow_varient.png"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	<TextBlock
+		Name="Loading" 
+		Text="-- CAUTION --" 
+		HorizontalAlignment="Left" 
+		VerticalAlignment="Bottom" 
+		Margin="40,0,0,95"
+		FontFamily="Cascadia Code"
+		FontWeight="SemiBold"
+		FontSize="28" 
+		Foreground="#e3c188"
+	/>
+	
+	<ProgressBar 
+		Height="6" 
+		Name="PrimaryProgressBar" 
+		VerticalAlignment="Bottom"
+		HorizontalAlignment="Left" 
+		Margin="40,0,0,75" 
+		Width="300" 
+		Foreground="#f5c0d1"
+		Background="#15FFFFFF"
+	/>
+	
+	<TextBlock
+		Name="Viper"
+		Text="\\ VIPER SQUADRON, EXODA FEDERATION \\"
+		HorizontalAlignment="Left" VerticalAlignment="Bottom"
+		Margin="40,0,0,35" FontFamily="Cascadia Code"
+		FontWeight="DemiBold"
+		FontSize="18" 
+		Foreground="#ff5871"
+	/>
+	
+	<Border Width="80" Height="80" HorizontalAlignment="Right" VerticalAlignment="Bottom" CornerRadius="8" Background="#15c47668" Margin="0,0,40,40">
+		
+		<Image 
+			Source="theme://Veeper.png"
+			Width="60"
+			Height="60"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Center"
+		/>
+		
+	</Border>
+	
+</BloxstrapCustomBootstrapper>

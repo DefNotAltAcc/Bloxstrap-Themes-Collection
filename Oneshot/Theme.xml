@@ -1,0 +1,56 @@
+<!-- Background Photo From https://www.pinterest.com/pin/743586588466008613/-->
+<!-- Niko Sleeping Gif From https://tenor.com/view/oneshot-niko-wme-sleepy-sleeping-gif-11085719446880163674-->
+
+<BloxstrapCustomBootstrapper Version="0" Height="373" Width="498" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false" 
+		ShowClose="True" 
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://OneShot2.gif"
+		IsAnimated="True" 
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	<TextBlock
+		Name="Status"
+		Text="LOADING" 
+		HorizontalAlignment="Left" 
+		VerticalAlignment="Bottom" 
+		Margin="40,0,0,65" 
+		FontFamily="Segoe UI"
+		FontWeight="SemiBold" 
+		FontSize="28" 
+		Foreground="#fcfd8d"
+	/>
+	
+	<ProgressBar 
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom"
+		HorizontalAlignment="Left" 
+		Margin="40,0,0,50" 
+		Height="6" 
+		Width="200"
+		Foreground="#fcfd8d"
+		Background="#15FFFFFF"
+	/>
+	
+	<Border Width="80" Height="80" HorizontalAlignment="Right" VerticalAlignment="Bottom" CornerRadius="8" Background="#15c47668" Margin="0,0,40,40">
+		
+		<Image 
+			Source="theme://oneshot-niko.gif" 
+			IsAnimated="True"
+			Width="60"
+			Height="60" 
+			HorizontalAlignment="Center"
+			VerticalAlignment="Center"
+		/>
+		
+	</Border>
+	
+</BloxstrapCustomBootstrapper>

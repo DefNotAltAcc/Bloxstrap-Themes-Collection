@@ -1,0 +1,41 @@
+<!-- Art By void_0 https://wall.alphacoders.com/big.php?i=1350221 -->
+
+<BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://Frieren.jpeg"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	<TextBlock 
+		Name="Loading" 
+		Text="LOADING"
+		HorizontalAlignment="Left"
+		VerticalAlignment="Bottom"
+		Margin="40,0,0,80" 
+		FontFamily="Segoe UI"
+		FontWeight="Bold" 
+		FontSize="40" 
+		Foreground="#f9f4f1"
+	/>
+	
+	<ProgressBar 
+		Height="6"
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Left"
+		Margin="40,0,0,60"
+		Width="350" 
+		Foreground="#fbe7cf"
+		Background="#15FFFFFF"
+	/>
+	
+</BloxstrapCustomBootstrapper>
