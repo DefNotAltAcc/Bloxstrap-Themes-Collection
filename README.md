@@ -39,7 +39,7 @@
 <br>
 
 # Dusk 
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Dusk.png">
+<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Dusk.gif">
 
 <br>
 
@@ -49,7 +49,7 @@
 <br>
 
 # Frieren
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Frieren.png">
+<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Frieren.gif">
 
 <br>
 
