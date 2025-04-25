@@ -1,4 +1,4 @@
-# Fishstrap-Themes-Collection
+# Bloxstrap-Themes-Collection
 
 <br>
 
