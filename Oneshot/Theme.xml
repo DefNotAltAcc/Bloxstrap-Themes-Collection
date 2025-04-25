@@ -1,7 +1,7 @@
 <!-- Background Photo From https://www.pinterest.com/pin/743586588466008613/-->
 <!-- Niko Sleeping Gif From https://tenor.com/view/oneshot-niko-wme-sleepy-sleeping-gif-11085719446880163674-->
 
-<BloxstrapCustomBootstrapper Version="0" Height="373" Width="498" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="0" Height="480" Width="640" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 
@@ -25,7 +25,7 @@
 		Margin="40,0,0,65" 
 		FontFamily="Segoe UI"
 		FontWeight="SemiBold" 
-		FontSize="28" 
+		FontSize="36" 
 		Foreground="#fcfd8d"
 	/>
 	
@@ -35,18 +35,18 @@
 		HorizontalAlignment="Left" 
 		Margin="40,0,0,50" 
 		Height="6" 
-		Width="200"
+		Width="260"
 		Foreground="#fcfd8d"
 		Background="#15FFFFFF"
 	/>
 	
-	<Border Width="80" Height="80" HorizontalAlignment="Right" VerticalAlignment="Bottom" CornerRadius="8" Background="#15c47668" Margin="0,0,40,40">
+	<Border Width="120" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" CornerRadius="8" Background="#15c47668" Margin="0,0,40,40">
 		
 		<Image 
 			Source="theme://oneshot-niko.gif" 
 			IsAnimated="True"
-			Width="60"
-			Height="60" 
+			Width="90"
+			Height="90" 
 			HorizontalAlignment="Center"
 			VerticalAlignment="Center"
 		/>
