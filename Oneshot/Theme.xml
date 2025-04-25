@@ -11,7 +11,7 @@
 	/>
 	
 	<Image 
-		Source="theme://OneShot2.gif"
+		Source="theme://createdby-deviant-art-darobs.gif"
 		IsAnimated="True" 
 		Stretch="UniformToFill" 
 		HorizontalAlignment="Center"
