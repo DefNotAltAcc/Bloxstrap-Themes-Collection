@@ -1,5 +1,5 @@
 <!-- Art By Oreskis https://wall.alphacoders.com/big.php?i=1203372 -->
-
+<!-- Chibi Dusk https://www.reddit.com/r/arknights/comments/1fkcjr7/no_motivation/-->
 <BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
@@ -15,27 +15,51 @@
 		HorizontalAlignment="Center"
 	/>
 	
-	<TextBlock 
-		Name="Loading" 
-		Text="LOADING" 
-		HorizontalAlignment="Left" 
-		VerticalAlignment="Bottom" 
-		Margin="40,0,0,80" 
-		FontFamily="Segoe UI" 
-		FontWeight="Bold" 
-		FontSize="40"
-		Foreground="#00bdc6"
-	/>
+	<Border Background="#20000000" Height="100"  Width="340" HorizontalAlignment="Left" VerticalAlignment="Bottom" CornerRadius="0,40,0,0" BorderThickness="4" BorderBrush="#30e54942" Margin="-3,0,0,-3">
+		<Grid>
+			<StackPanel>
+				<TextBlock 
+					HorizontalAlignment="Left"
+					VerticalAlignment="Center"
+					Text="ROBLOX" 
+					FontFamily="Segoe UI" 
+					FontWeight="Bold" 
+					FontSize="36"
+					Foreground="#00bdc6"
+					Margin="20,10,0,0"
+				/>
+				<TextBlock 
+					HorizontalAlignment="Left"
+					VerticalAlignment="Center"
+					Name="Loading" 
+					Text="Please Wait For The Game To Load" 
+					FontFamily="Segoe UI" 
+					FontWeight="SemiBold" 
+					FontSize="16"
+					Foreground="#00bdc6"
+					Margin="22,0,0,20"
+				/>
+			</StackPanel>
+		</Grid>
+	</Border>
 	
 	<ProgressBar 
 		Height="6" 
 		Name="PrimaryProgressBar" 
 		VerticalAlignment="Bottom"
 		HorizontalAlignment="Left" 
-		Margin="40,0,0,60" 
-		Width="300"
+		Width="620"
 		Foreground="#e54942" 
 		Background="#15FFFFFF"
+	/>
+	
+	<Image 
+		Source="theme://LilDusk.gif"
+		IsAnimated="True" 
+		Width="288" 
+		Height="197"
+		HorizontalAlignment="Right" 
+		VerticalAlignment="Bottom"
 	/>
 	
 </BloxstrapCustomBootstrapper>
