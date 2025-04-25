@@ -59,7 +59,7 @@
 <br>
 
 # Oneshot
-<img src="">
+<img src="Preview/Oneshot.gif">
 
 <br>
 
