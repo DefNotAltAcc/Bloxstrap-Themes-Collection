@@ -39,7 +39,7 @@
 <br>
 
 # Dusk 
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Dusk.gif">
+<img src="">
 
 <br>
 
@@ -59,7 +59,7 @@
 <br>
 
 # Oneshot
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Oneshot.gif">
+<img src="">
 
 <br>
 
