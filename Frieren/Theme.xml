@@ -1,5 +1,5 @@
 <!-- Art By void_0 https://wall.alphacoders.com/big.php?i=1350221 -->
-
+<!-- Frieren Spinning https://emoji.gg/emojis/frieren -->
 <BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
@@ -15,27 +15,48 @@
 		HorizontalAlignment="Center"
 	/>
 	
-	<TextBlock 
-		Name="Loading" 
-		Text="LOADING"
-		HorizontalAlignment="Left"
-		VerticalAlignment="Bottom"
-		Margin="40,0,0,80" 
-		FontFamily="Segoe UI"
-		FontWeight="Bold" 
-		FontSize="40" 
-		Foreground="#f9f4f1"
-	/>
 	
-	<ProgressBar 
-		Height="6"
-		Name="PrimaryProgressBar"
+	<Border Background="#10f9f4f1" Height="100" Width="300" Margin="0,0,0,0" CornerRadius="0,0,40,0" BorderBrush="#25fbe7cf" BorderThickness="0,0,4,4">
+		<Grid>
+			<StackPanel>
+				
+				<TextBlock 
+					Name="Loading" 
+					Text="LOADING"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="20,10,0,0"
+					FontFamily="Segoe UI"
+					FontWeight="Bold" 
+					FontSize="36" 
+					Foreground="#f9f4f1"
+					Opacity=".5"
+				/>
+				
+				<ProgressBar 
+					Height="6"
+					Name="PrimaryProgressBar"
+					VerticalAlignment="Bottom" 
+					HorizontalAlignment="Left"
+					Margin="20,15,0,0"
+					Width="240" 
+					Foreground="#fbe7cf"
+					Background="#15FFFFFF"
+					Opacity=".5"
+				/>
+				
+			</StackPanel>
+		</Grid>
+	</Border>
+	
+	<Image 
+		Source="theme://Frieren_Spin.gif" 
+		IsAnimated="True" Width="125"
+		Height="111" 
 		VerticalAlignment="Bottom" 
-		HorizontalAlignment="Left"
-		Margin="40,0,0,60"
-		Width="350" 
-		Foreground="#fbe7cf"
-		Background="#15FFFFFF"
+		HorizontalAlignment="Right" 
+		Margin="0,0,50,50" 
+		Opacity=".9"
 	/>
 	
 </BloxstrapCustomBootstrapper>
