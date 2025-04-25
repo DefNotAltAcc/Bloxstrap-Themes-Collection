@@ -54,7 +54,7 @@
 <br>
 
 # Miyabi
-<img src="">
+<img src="Preview/Miyabi.gif">
 
 <br>
 
