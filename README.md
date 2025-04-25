@@ -49,12 +49,12 @@
 <br>
 
 # Frieren
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Frieren.gif">
+<img src="">
 
 <br>
 
 # Miyabi
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Miyabi.gif">
+<img src="">
 
 <br>
 
