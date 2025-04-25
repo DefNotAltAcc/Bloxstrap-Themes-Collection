@@ -23,14 +23,26 @@
 		Text="LOADING"
 		HorizontalAlignment="Left"
 		VerticalAlignment="Bottom"
-		Margin="40,0,0,80" 
+		Margin="40,0,0,50" 
 		FontFamily="Segoe UI"
 		FontWeight="Bold" 
 		FontSize="40" 
 		Foreground="#e9b44c"
 	/>
 	
-	<!-- Set IsAnimated To "True" If Using Gif
+<!-- Set Visibility To "Visible" To See -->
+	<Image 
+		Source="theme://MainMiniImg.png" 
+		IsAnimated="False"  
+		Width="160" 
+		Height="160" 
+		HorizontalAlignment="Right" 
+		VerticalAlignment="Bottom"
+		Margin="0,0,50,25"
+		Visibility="Hidden"
+	/>
+	
+<!-- Set Visibility To "Visible" To See -->
 	<Image 
 		Source="theme://AltMiniImg.png" 
 		IsAnimated="False"  
@@ -39,15 +51,27 @@
 		HorizontalAlignment="Right" 
 		VerticalAlignment="Bottom"
 		Margin="0,0,50,50"
-	/> -->
+		Visibility="Hidden"
+	/>
+	
+	<!-- Set Visibility To "Visible" To See -->
+	<Image 
+		Source="theme://AltMiniImg2.gif" 
+		IsAnimated="True"  
+		Width="100" 
+		Height="100" 
+		HorizontalAlignment="Right" 
+		VerticalAlignment="Bottom"
+		Margin="0,0,50,40"
+		Visibility="Hidden"
+	/>
 	
 	<ProgressBar 
 		Height="6"
 		Name="PrimaryProgressBar"
 		VerticalAlignment="Bottom" 
 		HorizontalAlignment="Left"
-		Margin="40,0,0,60"
-		Width="350" 
+		Width="854" 
 		Foreground="#4cd3af"
 		Background="#15FFFFFF"
 	/>
