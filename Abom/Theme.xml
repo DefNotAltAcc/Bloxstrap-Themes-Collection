@@ -15,26 +15,44 @@
 		HorizontalAlignment="Center"
 	/>
 	
-	<TextBlock 
-		Name="Loading" 
-		Text="LOADING" 
-		HorizontalAlignment="Left"
-		VerticalAlignment="Bottom" 
-		Margin="40,0,0,80"
-		FontFamily="Segoe UI" 
-		FontWeight="Bold" 
-		FontSize="32" 
-		Foreground="#fff080"
-	/>
+	<Border Background="#20000000" Height="100" Width="300" VerticalAlignment="Bottom" CornerRadius="0,60,0,0" BorderBrush="#7570dde4" BorderThickness="0,4,4,0">
+		<Grid>
+			<StackPanel>
+				<TextBlock 
+					Name="Loading" 
+					Text="LOADING" 
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom" 
+					Margin="40,15,0,0"
+					FontFamily="Segoe UI" 
+					FontWeight="Bold" 
+					FontSize="30" 
+					Foreground="#fff080"
+					Opacity=".9"
+				/>
+				
+				<ProgressBar 
+					Height="6"
+					Name="PrimaryProgressBar"
+					VerticalAlignment="Bottom" 
+					HorizontalAlignment="Left"
+					Margin="40,10,0,0" Width="220" 
+					Foreground="#3fd8e6" 
+					Background="#15FFFFFF"
+					Opacity=".9"
+				/>
+			</StackPanel>
+		</Grid>
+	</Border>
 	
-	<ProgressBar 
-		Height="6"
-		Name="PrimaryProgressBar"
-		VerticalAlignment="Bottom" 
-		HorizontalAlignment="Left"
-		Margin="40,0,0,60" Width="350" 
-		Foreground="#3fd8e6" 
-		Background="#15FFFFFF"
-	/>
+	<Border Width="80" Height="80" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,40,25">
+	
+		<Image
+			Stretch="Uniform"
+			Source="theme://FunyFace.png"
+			Opacity=".25"
+		/>
+		
+	</Border>
 	
 </BloxstrapCustomBootstrapper>
