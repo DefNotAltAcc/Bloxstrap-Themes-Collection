@@ -1,6 +1,6 @@
 <!-- Background Image: https://tenor.com/view/bocchi-the-rock-gif-27019560 -->
 <!-- Mini Gif: https://giphy.com/stickers/pixel-8bit-sprite-8nH6xtdefALrKslyrj -->
-<BloxstrapCustomBootstrapper Version="0" Height="280" Width="498" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="0" Height="320" Width="498" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 
@@ -9,19 +9,11 @@
 		Visibility="Visible"
 	/>
 	
-	<Rectangle
-		Height="280"
-		Width="498" 
-		Fill="Black" 
-		Opacity=".1" 
-		Panel.ZIndex="100"
-	/>
-	
 	<Image 
 		Source="theme://bocci.gif"
 		IsAnimated="True" 
-		Height="100" 
-		Width="100" 
+		Height="120" 
+		Width="120" 
 		HorizontalAlignment="Right" 
 		VerticalAlignment="Bottom" 
 		Margin="0,0,20,15" 
@@ -35,8 +27,6 @@
 		HorizontalAlignment="Center"
 	/>
 	
-	
-	
 	<TextBlock 
 		Name="Loading" 
 		Text="LOADING"
@@ -45,7 +35,7 @@
 		Margin="40,0,0,40" 
 		FontFamily="Segoe UI"
 		FontWeight="Bold" 
-		FontSize="30" 
+		FontSize="35" 
 		Foreground="Black"
 		Opacity=".75"
 	/>
