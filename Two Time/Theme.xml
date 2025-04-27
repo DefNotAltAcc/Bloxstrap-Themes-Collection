@@ -1,0 +1,72 @@
+<!-- BG Image https://x.com/losteyrie/status/1888696088758034469 -->
+<!-- Goofy Ah TwoTime https://www.redbubble.com/i/sticker/Cute-Twotime-Two-Time-Roblox-Dreamgame-Forsaken-by-theclownman/168654306.EJUG5 -->
+<BloxstrapCustomBootstrapper Version="0" Height="540" Width="765" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://TwoTime.jpg"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	
+	<Border Background="#50695a95" Height="100" Width="300" Margin="0,0,0,0" CornerRadius="0,0,40,0" BorderBrush="#959077b9" BorderThickness="0,0,4,4">
+		<Grid>
+			<StackPanel>
+				
+				<TextBlock 
+					Name="Loading" 
+					Text="LOADING"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="20,10,0,0"
+					FontFamily="Segoe UI"
+					FontWeight="Bold" 
+					FontSize="36" 
+					Foreground="#7b60a7"
+				/>
+				
+				<TextBlock 
+					Name="SubText" 
+					Text='"Shadows Die Twice"'
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="23,0,0,20"
+					FontFamily="Segoe UI"
+					FontWeight="DemiBold" 
+					FontSize="18" 
+					Foreground="#976dbf"
+				/>
+				
+			</StackPanel>
+		</Grid>
+	</Border>
+	
+	<ProgressBar 
+		Height="6"
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Left"
+		Width="765" 
+		Foreground="#826caa"
+		Background="#15FFFFFF"
+	/>
+	
+	<Image 
+		Source="theme://MiniTwoTime.png" 
+		Width="166"
+		Height="148" 
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Right" 
+		Margin="0,0,40,40" 
+		Visibility="Hidden"
+		Opacity="1"
+	/>
+	
+</BloxstrapCustomBootstrapper>
