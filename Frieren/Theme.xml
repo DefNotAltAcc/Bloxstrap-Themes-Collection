@@ -1,6 +1,6 @@
 <!-- Art By void_0 https://wall.alphacoders.com/big.php?i=1350221 -->
 <!-- Frieren Spinning https://emoji.gg/emojis/frieren -->
-<BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="0" Height="540" Width="960" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 
@@ -16,7 +16,7 @@
 	/>
 	
 	
-	<Border Background="#20f9f4f1" Height="100" Width="300" Margin="0,0,0,0" CornerRadius="0,0,40,0" BorderBrush="#50fbe7cf" BorderThickness="0,0,4,4">
+	<Border Background="#20f9f4f1" Height="100" Width="320" Margin="0,0,0,0" CornerRadius="0,0,40,0" BorderBrush="#50fbe7cf" BorderThickness="0,0,4,4">
 		<Grid>
 			<StackPanel>
 				
@@ -55,7 +55,7 @@
 		Height="148" 
 		VerticalAlignment="Bottom" 
 		HorizontalAlignment="Right" 
-		Margin="0,0,25,25" 
+		Margin="0,0,30,30" 
 		Opacity="1"
 	/>
 	

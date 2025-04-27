@@ -1,6 +1,6 @@
 <!-- Art By Vade <@706825062925336618>--> 
 
-<BloxstrapCustomBootstrapper Version="0" Height="360" Width="640" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="0" Height="432" Width="768" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title=""
@@ -15,7 +15,7 @@
 		HorizontalAlignment="Center"
 	/> 
 	
-	<Border Width="150" Height="45" CornerRadius="10" Background="#505e5e5e" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,55">
+	<Border Width="175" Height="50" CornerRadius="10" Background="#305e5e5e" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,55">
 		
 		<TextBlock
 			Name="Loading" 
@@ -25,7 +25,7 @@
 			Margin="0,0,0,0"
 			FontFamily="Segoe UI"
 			FontWeight="Bold"
-			FontSize="30"
+			FontSize="34"
 			Foreground="#ffff0a"
 		/>
 		
@@ -39,12 +39,12 @@
 		Foreground="Pink"
 	/>
 	
-	<Border Width="90" Height="90" CornerRadius="8" Background="#2579fcfc" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,25,40">
+	<Border Width="120" Height="120" CornerRadius="8" Background="#2579fcfc" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,40,40">
 		
 		<Image 
 			Source="theme://sqrrl.png" 
-			Width="75" 
-			Height="75" 
+			Width="100" 
+			Height="100" 
 			HorizontalAlignment="Center" 
 			VerticalAlignment="Center"
 		/>

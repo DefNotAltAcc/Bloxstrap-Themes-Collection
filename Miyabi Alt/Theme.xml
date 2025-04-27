@@ -8,7 +8,7 @@
 	/>
 	
 	<Image 
-		Source="theme://Miyabi.png"
+		Source="theme://Miyabi.jpg"
 		Stretch="UniformToFill"
 		HorizontalAlignment="Center"
 	/>
@@ -18,10 +18,10 @@
 		Text="LOADING" 
 		HorizontalAlignment="Left"
 		VerticalAlignment="Bottom" 
-		Margin="40,0,0,73" 
+		Margin="40,0,0,85" 
 		FontFamily="Segoe UI" 
 		FontWeight="Bold" 
-		FontSize="40"
+		FontSize="36"
 		Foreground="#52aba9"
 	/>
 	
@@ -30,7 +30,7 @@
 		Name="PrimaryProgressBar"
 		VerticalAlignment="Bottom" 
 		HorizontalAlignment="Left"
-		Margin="40,0,0,53" 
+		Margin="40,0,0,66" 
 		Width="300" 
 		Foreground="#52aba9"
 		Background="#15FFFFFF"
@@ -39,11 +39,11 @@
 	<Image 
 		Source="theme://Miyabi3.gif" 
 		IsAnimated="True" 
-		Width="180" 
-		Height="180" 
+		Width="160" 
+		Height="160" 
 		HorizontalAlignment="Right" 
 		VerticalAlignment="Bottom"
-		Margin="0,0,25,25"
+		Margin="0,0,25,53"
 	/>
 	
 </BloxstrapCustomBootstrapper>
