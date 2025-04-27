@@ -24,49 +24,50 @@
 <br>
 
 # Abominationn
-<img src="">
+<img src="Preview/Abom.png">
 
 <br>
 
 # Bocchi The Rock
-<img src="">
+<img src="Preview/Bocchi_The_Rock.gif">
 
 <br>
 
 # Don Quixote
-<img src="">
+<img src="Preview/Don_Quixote.png">
 
 <br>
 
 # Dusk 
-<img src="">
+<img src="Preview/Dusk.gif">
 
 <br>
 
 # Fargo's
-<img src="">
+<img src="Preview/Fargos.png">
 
 <br>
 
 # Frieren
-<img src="">
+<img src="Preview/Frieren.gif">
 
 <br>
 
 # Miyabi
-<img src="">
+<img src="Preview/Miyabi.gif">
+<img src="Preview/Miyabi_Alt.gif">
 
 <br>
 
 # Oneshot
-<img src="">
+<img src="Preview/Oneshot.gif">
 
 <br>
 
 # Two Time
-<img src="">
+<img src="Preview/Two_Time.png">
 
 <br>
 
 # Viper Squadron
-<img src="">
+<img src="Preview/Viper_Squadron.png">
