@@ -24,49 +24,49 @@
 <br>
 
 # Abominationn
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Abom.png">
+<img src="">
 
 <br>
 
 # Bocchi The Rock
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Bocchi_The_Rock.gif">
+<img src="">
 
 <br>
 
 # Don Quixote
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Don_Quixote.png">
+<img src="">
 
 <br>
 
 # Dusk 
-<img src="Preview/Dusk.gif">
+<img src="">
 
 <br>
 
 # Fargo's
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Fargos.png">
+<img src="">
 
 <br>
 
 # Frieren
-<img src="Preview/Frieren.gif">
+<img src="">
 
 <br>
 
 # Miyabi
-<img src="Preview/Miyabi.gif">
+<img src="">
 
 <br>
 
 # Oneshot
-<img src="Preview/Oneshot.gif">
+<img src="">
 
 <br>
 
 # Two Time
-<img src="Preview/Two_Time.png">
+<img src="">
 
 <br>
 
 # Viper Squadron
-<img src="https://github.com/DefNotAltAcc/Fishstrap-Themes-Collection/blob/main/Preview/Viper_Squadron.png">
+<img src="">
