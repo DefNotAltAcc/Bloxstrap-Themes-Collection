@@ -1,0 +1,75 @@
+<!-- BG Image https://x.com/Vulkiri/status/1691160542503739392 -->
+<!-- Celeste Logo https://commons.wikimedia.org/wiki/File:Celeste_video_game_logo.png -->
+<BloxstrapCustomBootstrapper Version="0" Height="532" Width="1011" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://Celeste1.jpg"
+		Stretch="Uniform" 
+		HorizontalAlignment="Center"
+	/>
+	
+	
+	<Border Background="#99484aa1" Height="100" Width="450" Margin="0,0,0,0" CornerRadius="0,0,40,0" BorderThickness="0,0,5,5">
+		<Border.BorderBrush>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+				<GradientStop Color="#d198c1" Offset="0.25"/>
+				<GradientStop Color="#e9a6b8" Offset="0.50"/>
+				<GradientStop Color="#fdbdb9" Offset="0.75"/>
+			</LinearGradientBrush>
+		</Border.BorderBrush>
+			<Grid>
+				<StackPanel>
+				
+					<TextBlock Name="Loading" Text="LOADING" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,10,0,0" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36">
+						<TextBlock.Foreground>
+							<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+								<GradientStop Color="#d198c1" Offset="0.15"/>
+								<GradientStop Color="#e9a6b8" Offset="0.40"/>
+								<GradientStop Color="#fdbdb9" Offset="0.65"/>
+							</LinearGradientBrush>
+						</TextBlock.Foreground>
+					</TextBlock>
+					
+					<TextBlock Name="SubText" Text="Fun Fact: It's impossible to outrun your own reflection. " HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="23,0,0,20" FontFamily="Segoe UI" FontWeight="DemiBold" FontSize="16">
+						<TextBlock.Foreground>
+							<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+								<GradientStop Color="#d198c1" Offset="0.15"/>
+								<GradientStop Color="#e9a6b8" Offset="0.30"/>
+								<GradientStop Color="#fdbdb9" Offset="0.45"/>
+							</LinearGradientBrush>
+						</TextBlock.Foreground>
+					</TextBlock>
+					
+				</StackPanel>
+			</Grid>
+	</Border>
+	
+	<ProgressBar Height="10" Name="PrimaryProgressBar" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="1011">
+		<ProgressBar.Foreground>
+			<LinearGradientBrush StartPoint="0.2,-0.2" EndPoint="0.8,1.2" >
+				<GradientStop Color="#d198c1" Offset="0.15"/>
+				<GradientStop Color="#e9a6b8" Offset="0.40"/>
+				<GradientStop Color="#fdbdb9" Offset="0.65"/>
+			</LinearGradientBrush>
+		</ProgressBar.Foreground>
+	</ProgressBar>
+	
+	<Image 
+		Source="theme://Celeste_Logo.png" 
+		Width="192"
+		Height="155" 
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Right" 
+		Margin="0,0,40,40" 
+		Visibility="Visible"
+		Opacity="1"
+	/>
+	
+</BloxstrapCustomBootstrapper>
