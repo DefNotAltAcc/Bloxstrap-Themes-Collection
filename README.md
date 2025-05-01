@@ -33,6 +33,11 @@
 
 <br>
 
+# Celeste
+<img src="Preview/Celeste.png">
+
+<br>
+
 # Don Quixote
 <img src="Preview/Don_Quixote.png">
 
