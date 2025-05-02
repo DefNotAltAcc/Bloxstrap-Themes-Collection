@@ -35,6 +35,7 @@
 
 # Celeste
 <img src="Preview/Celeste.png">
+<img src="Preview/CelesteAltTheme.png">
 
 <br>
 
