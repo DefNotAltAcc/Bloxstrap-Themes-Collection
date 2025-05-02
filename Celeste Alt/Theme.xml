@@ -1,0 +1,82 @@
+<!-- BG Image https://danbooru.donmai.us/posts/6280367 -->
+<!-- Strawberry Jam Logo https://gamebanana.com/mods/424541-->
+<BloxstrapCustomBootstrapper Version="0" Height="507" Width="901" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://Madeline.jpg"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	
+	<Border Height="100" Width="360" Margin="0,0,0,0" CornerRadius="0,0,40,0" BorderThickness="0,0,5,5">
+		<Border.BorderBrush>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+				<GradientStop Color="#75f62160" Offset="0.25"/>
+				<GradientStop Color="#75f14b4d" Offset="0.50"/>
+				<GradientStop Color="#75f74f50" Offset="0.75"/>
+			</LinearGradientBrush>
+		</Border.BorderBrush>
+		
+		<Border.Background>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+				<GradientStop Color="#50fd84dc" Offset="0.35"/>
+				<GradientStop Color="#50fbc4d9" Offset="0.50"/>
+			</LinearGradientBrush>
+		</Border.Background>
+			<Grid>
+				<StackPanel>
+				
+					<TextBlock Name="Loading" Text="LOADING" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,10,0,0" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36">
+						<TextBlock.Foreground>
+							<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+								<GradientStop Color="#fd7078" Offset="0.15"/>
+								<GradientStop Color="#fe836c" Offset="0.40"/>
+								<GradientStop Color="#fdc3a9" Offset="0.65"/>
+							</LinearGradientBrush>
+						</TextBlock.Foreground>
+					</TextBlock>
+					
+					<TextBlock Name="SubText" Text="''It's hard to believe that it's over, isn't it?''" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="23,0,0,20" FontFamily="Segoe UI" FontWeight="DemiBold" FontSize="16">
+						<TextBlock.Foreground>
+							<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+								<GradientStop Color="#fd7078" Offset="0.15"/>
+								<GradientStop Color="#fe836c" Offset="0.30"/>
+								<GradientStop Color="#fdc3a9" Offset="0.45"/>
+							</LinearGradientBrush>
+						</TextBlock.Foreground>
+					</TextBlock>
+					
+				</StackPanel>
+			</Grid>
+	</Border>
+	
+	<ProgressBar Height="10" Name="PrimaryProgressBar" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="901">
+		<ProgressBar.Foreground>
+			<LinearGradientBrush StartPoint="0.2,-0.2" EndPoint="0.8,1.2">
+				<GradientStop Color="#75cb2944" Offset="0.15"/>
+				<GradientStop Color="#75d62c48" Offset="0.30"/>
+				<GradientStop Color="#75fd3d62" Offset="0.45"/>
+			</LinearGradientBrush>
+		</ProgressBar.Foreground>
+	</ProgressBar>
+	
+	<Image 
+		Source="theme://StrawberryJam_Logo.png" 
+		Width="195" 
+		Height="167" 
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Right"
+		Margin="0,0,20,20" 
+		Visibility="Visible" 
+		Opacity="1"
+	/>
+	
+</BloxstrapCustomBootstrapper>
