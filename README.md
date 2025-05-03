@@ -28,6 +28,11 @@
 
 <br>
 
+# Arch Linux
+<img src="Preview/Arch.png">
+
+<br>
+
 # Bocchi The Rock
 <img src="Preview/Bocchi_The_Rock.gif">
 
