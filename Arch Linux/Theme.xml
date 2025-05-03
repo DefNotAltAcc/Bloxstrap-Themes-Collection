@@ -1,0 +1,45 @@
+<BloxstrapCustomBootstrapper Version="1" Height="622" Width="925" Background="#303030" IgnoreTitleBarInset="True" AllowTransparency="False" WindowBackdropType="Disable" WindowCornerPreference="Round">
+	
+	<Button Name="CancelButton" Width="925" Height="622" Background="Transparent" Panel.ZIndex="123"/>
+	
+	<!-- Titlebar -->
+	<TitleBar Height="50" Title="test@arch-linux:~" Padding="375,15,0,0" ShowClose="False" ShowMinimize="False" FontSize="18" FontWeight="DemiBold"/>
+	<Image Source="theme://Search.png" Margin="10,15,0,0" Panel.ZIndex="1" Width="30" Height="30"/>
+	<Image Source="theme://MenuIcons.png" Margin="0,15,10,0" HorizontalAlignment="Right" Panel.ZIndex="1" Width="120" Height="50"/>
+	
+	<Rectangle Fill="#1e1e1e" Height="572" Width="925" VerticalAlignment="Bottom"/>
+	
+	<!-- Arch Logo -->
+	<TextBlock Text="[test@arch-linux ~]$ neofetch" Margin="10,54,0,0" FontSize="18" FontFamily="Cascadia Code" FontWeight="UltraLight"/>
+	<Image Source="theme://ArchLogo.png" Margin="10,80,0,0" Width="422" Height="454"/>
+	<TextBlock Text="[test@arch-linux ~]$ " Margin="10,0,0,40" VerticalAlignment="Bottom" FontSize="18" FontFamily="Cascadia Code" FontWeight="UltraLight"/>
+	
+	<!-- System Info -->
+	<TextBlock Text="test arch-linux" Margin="441,70,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text="@" Margin="483,70,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="Thin"/>
+	<TextBlock Text="---------------" Margin="442,95,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="Thin"/>
+	<TextBlock Text="OS" Margin="442,120,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": Arch Linux x86_64" Margin="462,120,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="Host" Margin="442,145,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": VMware Virtual Platform None" Margin="482,145,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="Kernel" Margin="442,170,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": 5.19.9-arch1-1" Margin="502,170,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="Uptime" Margin="442,195,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": 1 min" Margin="502,195,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="Packages" Margin="442,220,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": 706 (pacman)" Margin="522,220,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="Shell" Margin="442,245,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": bash 5.1.16" Margin="492,245,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="Resolution" Margin="442,270,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": 1920x1080" Margin="544,270,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="DE" Margin="442,295,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": Plasma 6.0.1" Margin="460,295,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="CPU" Margin="442,320,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": 11th Gen Intel i7-11800H (16) @ 4.600GHz" Margin="471,320,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="GPU" Margin="442,345,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": NVIDIA GeForce RTX 3060 Mobile / Max-Q" Margin="471,345,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<TextBlock Text="Memory" Margin="442,370,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#0ab9dc" FontWeight="Bold"/>
+	<TextBlock Text=": 1153MiB /31949MiB" Margin="502,370,0,0" HorizontalAlignment="Left" FontSize="18" FontFamily="Cascadia Code" Foreground="#ffffff" FontWeight="UltraLight"/>
+	<Image Source="theme://Colors.png" Width="264" Height="50" Margin="442,420,0,0"/>
+	
+</BloxstrapCustomBootstrapper>
