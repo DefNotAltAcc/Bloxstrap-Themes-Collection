@@ -67,6 +67,12 @@
 
 # Oneshot
 <img src="Preview/Oneshot.gif">
+<img src="Preview/Oneshot Solstice.png">
+
+<br>
+
+# Shikanoko Nokonoko Koshitantan
+<img src="Preview/Shikanoko Nokonoko Koshitantan.gif">
 
 <br>
 
