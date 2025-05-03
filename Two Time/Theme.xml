@@ -1,6 +1,6 @@
 <!-- BG Image https://x.com/losteyrie/status/1888696088758034469 -->
 <!-- Goofy Ah TwoTime https://www.redbubble.com/i/sticker/Cute-Twotime-Two-Time-Roblox-Dreamgame-Forsaken-by-theclownman/168654306.EJUG5 -->
-<BloxstrapCustomBootstrapper Version="0" Height="540" Width="765" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="540" Width="765" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 

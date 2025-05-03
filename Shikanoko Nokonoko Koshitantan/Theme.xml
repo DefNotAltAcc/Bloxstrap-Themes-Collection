@@ -1,0 +1,88 @@
+<!-- BG Image https://shikanoko-nokonoko-koshitantan.fandom.com/wiki/Noko_Shikanoko/History?file=Ep_5_-_Nokos_part_time_job.jpg -->
+<!-- Mini Nokotan https://danbooru.donmai.us/posts/7696503 -->
+<!-- Mini Bashame https://danbooru.donmai.us/posts/7898823 -->
+<BloxstrapCustomBootstrapper Version="1" Height="336" Width="600" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://Nokotan.jpg"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	
+	<Border Background="#20b79069" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="90" Width="250" Margin="0,0,0,0" CornerRadius="0,40,0,0" BorderBrush="#75a37456" BorderThickness="0,4,4,0">
+		<Grid>
+			<StackPanel>
+				
+				<TextBlock 
+					Name="Loading" 
+					Text="LOADING"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="20,5,0,0"
+					FontFamily="Segoe UI"
+					FontWeight="Bold" 
+					FontSize="30" 
+					Foreground="#c7b48c"
+				/>
+				
+				<TextBlock 
+					Name="SubText" 
+					Text="You Deer"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="23,0,0,20"
+					FontFamily="Segoe UI"
+					FontWeight="DemiBold" 
+					FontSize="20" 
+					Foreground="#d3c09f"
+				/>
+				
+			</StackPanel>
+		</Grid>
+	</Border>
+	
+	<ProgressBar 
+		Height="6"
+		Name="PrimaryProgressBar"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Left"
+		Width="600" 
+		Foreground="#8b513b"
+		Background="#15FFFFFF"
+	/>
+	
+	<Image 
+		Source="theme://Nokodance.gif" 
+		IsAnimated="True"
+		Width="175"
+		Height="128" 
+		Stretch="UniformToFill"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Right" 
+		Margin="0,0,0,2" 
+		Visibility="Visible"
+		Opacity="1"
+	/>
+	
+	<Image 
+		Source="theme://Bashame.gif" 
+		IsAnimated="True"
+		Width="122"
+		Height="116" 
+		Stretch="UniformToFill"
+		VerticalAlignment="Bottom" 
+		HorizontalAlignment="Right" 
+		Margin="0,0,0,0" 
+		Visibility="Hidden"
+		Opacity="1"
+	/>
+	
+</BloxstrapCustomBootstrapper>

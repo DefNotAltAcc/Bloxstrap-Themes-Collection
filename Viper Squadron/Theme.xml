@@ -1,7 +1,7 @@
 <!-- Art By N16 <@235199547545092097>-->
 <!-- Game: Defend the Statue By: Nostalgic Proctors https://www.roblox.com/games/6911596531/Defend-the-Statue-->
 
-<BloxstrapCustomBootstrapper Version="0" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="480" Width="854" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 

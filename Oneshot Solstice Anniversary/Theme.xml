@@ -1,0 +1,77 @@
+<!-- BG Image https://oneshot.fandom.com/wiki/OneShot/Gallery?file=OneShot_Solstice_Anniversary_promotional_image.png -->
+<BloxstrapCustomBootstrapper Version="1" Height="556" Width="933" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+	
+	<TitleBar 
+		Title="" 
+		ShowMinimize="false"
+		ShowClose="True"
+		Visibility="Visible"
+	/>
+	
+	<Image 
+		Source="theme://Oneshot.jpg"
+		Stretch="UniformToFill" 
+		HorizontalAlignment="Center"
+	/>
+	
+	
+	<Border Height="100" Width="350" Margin="0,0,0,0" CornerRadius="0,0,40,0" BorderThickness="0,0,5,5">
+		<Border.BorderBrush>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+				<GradientStop Color="#95bd55fc" Offset="0.20"/>
+				<GradientStop Color="#95c66dfc" Offset="0.25"/>
+				<GradientStop Color="#95da73fb" Offset="0.35"/>
+			</LinearGradientBrush>
+		</Border.BorderBrush>
+		<Border.Background>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="1,1.75">
+				<GradientStop Color="#10a4fdff" Offset="0.20"/>
+				<GradientStop Color="#105bfbff" Offset="0.32"/>
+				<GradientStop Color="#10fe88fe" Offset="0.33"/>
+				<GradientStop Color="#10fe88fe" Offset="0.65"/>
+				<GradientStop Color="#10be4cfe" Offset="0.66"/>
+			</LinearGradientBrush>
+		</Border.Background>
+			<Grid>
+				<StackPanel>
+				
+					<TextBlock Name="Loading" Text="LOADING" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,10,0,0" FontFamily="Segoe UI" FontWeight="Bold" FontSize="36">
+						<TextBlock.Foreground>
+							<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+								<GradientStop Color="#996d38fe" Offset="0.20"/>
+								<GradientStop Color="#998058ee" Offset="0.40"/>
+							</LinearGradientBrush>
+						</TextBlock.Foreground>
+					</TextBlock>
+					
+					<TextBlock Name="SubText" Text='"Confused cat noises -Niko"' HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="23,0,0,20" FontFamily="Segoe UI" FontWeight="DemiBold" FontSize="16">
+						<TextBlock.Foreground>
+							<LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+								<GradientStop Color="#996d38fe" Offset="0.20"/>
+								<GradientStop Color="#998058ee" Offset="0.40"/>
+							</LinearGradientBrush>
+						</TextBlock.Foreground>
+					</TextBlock>
+					
+					
+					
+				</StackPanel>
+			</Grid>
+	</Border>
+	
+	<TextBlock Text="0 1 0 1 0 1 0 1 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 1" Margin="6,4,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Segoe UI" FontWeight="DemiBold" Opacity=".03"/>
+	<TextBlock Text="1 0 1 0 0 1 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1 0 0 1 0" Margin="6,25,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Segoe UI" FontWeight="DemiBold" Opacity=".03"/>
+	<TextBlock Text="1 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 1 0 1 0 1 1 0 0" Margin="6,46,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Segoe UI" FontWeight="DemiBold" Opacity=".03"/>
+	<TextBlock Text="0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 1 0 1 0 1" Margin="6,67,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Segoe UI" FontWeight="DemiBold" Opacity=".03"/>
+	
+	
+	<ProgressBar Height="8" Name="PrimaryProgressBar" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="933">
+		<ProgressBar.Foreground>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="1,4" >
+				<GradientStop Color="#fa2f9d" Offset="0.15"/>
+				<GradientStop Color="#ff4caf" Offset="0.30"/>
+			</LinearGradientBrush>
+		</ProgressBar.Foreground>
+	</ProgressBar>	
+	
+</BloxstrapCustomBootstrapper>
