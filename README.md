@@ -14,7 +14,7 @@
     Click "Open Theme Folder" and Paste the Downloaded Zip's Contents Into It (Click "Replace the file in the destination" if prompted)
   </li>
   <li>
-    <b>MAKE SURE "BloxstrapCustomBootstraper" IS SET TO THE CORRECT VERSION (1 = Bloxstrap, 0 = Fishstrap)</b>
+    <s><b>MAKE SURE "BloxstrapCustomBootstraper" IS SET TO THE CORRECT VERSION (1 = Bloxstrap, 0 = Fishstrap)</b></s> Nvm lol
   </li>
   <li>
     Click the Save Button and Enjoy!
