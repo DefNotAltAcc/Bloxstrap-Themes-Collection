@@ -3,7 +3,7 @@
 <!-- Alt Mini Image 1 From: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fcinq-east-section-3-don-quixote-v0-yd2jskzymvle1.png%3Fwidth%3D1696%26format%3Dpng%26auto%3Dwebp%26s%3Da06cca6af2dca2c8268e687469a596601668d320 -->
 <!-- Alt Mini Image 2 From: ??? -->
 
-<BloxstrapCustomBootstrapper Version="0" Height="504" Width="896" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="504" Width="896" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 

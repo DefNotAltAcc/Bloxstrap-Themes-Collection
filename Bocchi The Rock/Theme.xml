@@ -1,6 +1,6 @@
 <!-- Background Image: https://tenor.com/view/bocchi-bocchi-the-rock-anime-cringe-freak-out-gif-27026752 -->
 <!-- Mini Gif: https://giphy.com/stickers/pixel-8bit-sprite-8nH6xtdefALrKslyrj -->
-<BloxstrapCustomBootstrapper Version="0" Height="320" Width="498" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="320" Width="498" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 

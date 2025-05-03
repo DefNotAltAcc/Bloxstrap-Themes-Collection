@@ -1,6 +1,6 @@
 <!-- Art By Skh <@1231110874513801226>-->
 
-<BloxstrapCustomBootstrapper Version="0" Height="504" Width="896" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="504" Width="896" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title=""

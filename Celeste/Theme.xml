@@ -1,6 +1,6 @@
 <!-- BG Image https://x.com/Vulkiri/status/1691160542503739392 -->
 <!-- Celeste Logo https://commons.wikimedia.org/wiki/File:Celeste_video_game_logo.png -->
-<BloxstrapCustomBootstrapper Version="0" Height="532" Width="1011" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="532" Width="1011" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 

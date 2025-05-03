@@ -1,6 +1,6 @@
 <!-- BG Image https://danbooru.donmai.us/posts/6280367 -->
 <!-- Strawberry Jam Logo https://gamebanana.com/mods/424541-->
-<BloxstrapCustomBootstrapper Version="0" Height="507" Width="901" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="507" Width="901" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 
