@@ -1,6 +1,6 @@
 <!-- Art By Vade <@706825062925336618>--> 
 
-<BloxstrapCustomBootstrapper Version="0" Height="432" Width="768" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="432" Width="768" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title=""

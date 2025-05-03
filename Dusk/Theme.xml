@@ -1,6 +1,6 @@
 <!-- Art By Oreskis https://wall.alphacoders.com/big.php?i=1203372 -->
 <!-- Chibi Dusk https://www.reddit.com/r/arknights/comments/1fkcjr7/no_motivation/-->
-<BloxstrapCustomBootstrapper Version="0" Height="504" Width="896" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
+<BloxstrapCustomBootstrapper Version="1" Height="504" Width="896" Theme="Dark" IgnoreTitleBarInset="True" WindowCornerPreference="Round">
 	
 	<TitleBar 
 		Title="" 
