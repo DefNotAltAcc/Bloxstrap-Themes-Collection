@@ -1,5 +1,5 @@
 # Bloxstrap-Themes-Collection
-<a>I don't feel like updating this💀</a>
+<a>I don't feel like updating this💀. More recent themes are in the bloxstrap/fishstrap servers</a>
 
 <br>
 
